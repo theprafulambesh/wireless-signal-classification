@@ -1,0 +1,38 @@
+# Virtual environments
+wsc/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data and experiment output
+data/*
+results/*
+models/*
+experiments/*
+
+# Keep directory placeholders
+!data/.gitkeep
+!results/.gitkeep
+!models/.gitkeep
+!experiments/.gitkeep
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.secret
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
