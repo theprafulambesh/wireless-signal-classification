@@ -38,7 +38,7 @@ python -m venv wsc
 source wsc/Scripts/activate
 pip install -r requirments.txt
 
-Planned work
+## Planned work
 1. Finish validating individual channel impairments
 2. Validate combined impairments
 3. Generate the IQ dataset
